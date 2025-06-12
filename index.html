@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para o Amor da Minha Vida</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Clique na rosa 🌹</h1>
+    <div class="rose-container" onclick="abrirRosa()">
+      <!-- SVG da rosa -->
+      <svg id="rose" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+        <path d="M100,30
+                 C110,10 150,10 150,40
+                 C160,20 190,50 150,80
+                 C170,90 160,120 130,110
+                 C140,130 120,150 100,140
+                 C80,150 60,130 70,110
+                 C40,120 30,90 50,80
+                 C10,50 40,20 50,40
+                 C50,10 90,10 100,30Z"
+              fill="#e60073" stroke="#8b004d" stroke-width="2">
+        </path>
+      </svg>
+    </div>
+
+    <div class="poema" id="poema">
+      <p>
+        "Se eu pudesse guardar um momento,<br>
+        Seria o teu sorriso no tempo.<br>
+        Te amar é minha sorte, meu presente,<br>
+        Meu para sempre mais presente."
+      </p>
+    </div>
+
+    <audio id="musica" controls>
+      <source src="turning-page.mp3" type="audio/mp3">
+      Seu navegador não suporta áudio.
+    </audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
